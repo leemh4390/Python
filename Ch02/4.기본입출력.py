@@ -18,6 +18,12 @@ print('r1 : ', r1)
 
 #출력 옵션
 print('010','1234','5678', sep='-')
-print('Hello',end='~')
+print('Hello',end='~') #다음 문장과 함께 출력
 print('Pyton',end=' ')
 print('Programming')
+
+#서식문자
+print('%d년 %d월 %d일 %s요일'% (2023,1,2,'월'))
+
+#포맷문자
+print('{}년 {}월 {}일 {}요일'.format(2023,1,2,'월'))
